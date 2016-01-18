@@ -1,0 +1,17 @@
+Average word length (/words/avg_len)
+Tokenization - all words are alphabetical and can include apostrophes, but apostrophes do not count towards the length
+
+Most common word (/words/most_com)
+As is
+
+Find the word(s) with the median frequency in the corpus (/words/median)
+I sorted the frequency distribution alphabetically so when there are words with the same frequency at the median, I return what is at the median sorted alphabetically
+
+Average sentence length (/sentences/avg_len)
+A sentence is anything length of text ending in a . or ? or !
+
+Find all phone numbers (/phones)
+Takes in formats such as:
+123-456-7890
+(123)-456-7890
+1234567890
